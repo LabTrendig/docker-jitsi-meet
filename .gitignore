@@ -9,7 +9,7 @@ jitsi-meet-cfg/web/**
 !/jitsi-meet-cfg/web/config.js
 !/jitsi-meet-cfg/web/static/
 
-jitsi-meet-cfg/jicofo
-jitsi-meet-cfg/jvb
-jitsi-meet-cfg//prosody
-jitsi-meet-cfg/transcripts
+jitsi-meet-cfg/jicofo/
+jitsi-meet-cfg/jvb/
+jitsi-meet-cfg//prosody/
+jitsi-meet-cfg/transcripts/
