@@ -1,5 +1,14 @@
 # Jitsi Meet on Docker
 
+    labtrendig
+    fork	git@github.com:LabTrendig/docker-jitsi-meet.git (fetch)
+    fork	git@github.com:LabTrendig/docker-jitsi-meet.git (push)
+    
+    jitsi
+    origin	https://github.com/jitsi/docker-jitsi-meet.git (fetch)
+    origin	https://github.com/jitsi/docker-jitsi-meet.git (push)
+
+
 ![](resources/jitsi-docker.png)
 
 [Jitsi](https://jitsi.org/) is a set of Open Source projects that allows you to easily build and deploy secure videoconferencing solutions.
