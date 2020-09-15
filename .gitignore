@@ -4,6 +4,6 @@
 .env.bak
 docker-compose.override.yml
 
+jitsi-meet-cfg
 !/jitsi-meet-cfg/config.js
 !/jitsi-meet-cfg/interface_config.js
-jitsi-meet-cfg
