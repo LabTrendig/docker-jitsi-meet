@@ -8,6 +8,14 @@
     origin	https://github.com/jitsi/docker-jitsi-meet.git (fetch)
     origin	https://github.com/jitsi/docker-jitsi-meet.git (push)
 
+## 1: git pull origin in master -> Jitsi
+
+## 2: git checkout trendig-jitsi
+
+## 3: git merge master
+
+## 4: git push fork -> Labtrendig
+
 
 ![](resources/jitsi-docker.png)
 
