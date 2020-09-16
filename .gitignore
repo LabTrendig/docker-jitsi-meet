@@ -12,7 +12,11 @@ jitsi-meet-cfg/web/**
 !/jitsi-meet-cfg/prosody/prosody-plugins-custom/mod_token_moderation.lua
 !/jitsi-meet-cfg/prosody/config/conf.d/jitsi-meet.cfg.lua
 
+jitsi-meet-cfg/prosody/config/certs/
+jitsi-meet-cfg/prosody/config/data/
+
 jitsi-meet-cfg/jicofo/
 jitsi-meet-cfg/jvb/
-jitsi-meet-cfg/prosody/
 jitsi-meet-cfg/transcripts/
+
+
