@@ -20,3 +20,5 @@ jitsi-meet-cfg/jvb/
 jitsi-meet-cfg/transcripts/
 
 
+jitsi-meet-cfg/prosody/config/prosody.cfg.lua
+jitsi-meet-cfg/prosody/config/saslauthd.conf
