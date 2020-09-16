@@ -13,15 +13,25 @@ http_default_host = "meet.jitsi"
 
 
 
+
+
 asap_accepted_issuers = { "my_web_client","my_app_client" }
+
+
+
 asap_accepted_audiences = { "my_server1","my_server2" }
+
 
 VirtualHost "meet.jitsi"
 
+  
     authentication = "token"
     app_id = "trendigID"
     app_secret = "trendigSecret"
     allow_empty_token = false
+    
+
+    
 
     ssl = {
         key = "/config/certs/meet.jitsi.key";
@@ -33,12 +43,12 @@ VirtualHost "meet.jitsi"
         "ping";
         "speakerstats";
         "conference_duration";
-
-
-
+        
+        
+        
     }
 
-
+    
 
     speakerstats_component = "speakerstats.meet.jitsi"
     conference_duration_component = "conferenceduration.meet.jitsi"
@@ -76,6 +86,10 @@ Component "muc.meet.jitsi" "muc"
     modules_enabled = {
         "muc_meeting_id";
         
+        "token_moderation";
+        
+        
+        "token_verification";
         
     }
     muc_room_cache_size = 1000
