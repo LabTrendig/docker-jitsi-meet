@@ -13,3 +13,5 @@ jitsi-meet-cfg/jicofo/
 jitsi-meet-cfg/jvb/
 jitsi-meet-cfg/prosody/
 jitsi-meet-cfg/transcripts/
+!/jitsi-meet-cfg/prosody/prosody-plugins-custom/mod_token_moderation.lua
+!/jitsi-meet-cfg/prosody/config/conf.d/jitsi-meet.cfg.lua

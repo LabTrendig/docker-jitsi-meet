@@ -8,6 +8,26 @@
     origin	https://github.com/jitsi/docker-jitsi-meet.git (fetch)
     origin	https://github.com/jitsi/docker-jitsi-meet.git (push)
 
+## Created user
+    antes de abilitar el jwt esto no s pemitira que todo debes tener passowrd
+    
+    created user   
+    prosodyctl --config /config/prosody.cfg.lua register trednigAdmin meet.jitsi admintrendig
+
+	delete user
+	prosodyctl --config /config/prosody.cfg.lua unregister trednigAdmin meet.jitsi
+
+## jwt
+       jwt
+      "aud": "my_server1",
+      "iss": "my_web_client",
+      "sub": "meet.jitsi",
+      "room": "test-jwt"
+      
+    .env
+    JWT_ACCEPTED_ISSUERS=my_web_client,my_app_client
+    JWT_ACCEPTED_AUDIENCES=my_server1,my_server2
+
 ## 1: git pull origin in master -> Jitsi
 
 ## 2: git checkout trendig-jitsi

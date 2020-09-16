@@ -37,3 +37,7 @@ prepare:
 	FORCE_REBUILD=1 $(MAKE)
 
 .PHONY: all build tag push clean prepare release
+
+user:
+	prosodyctl --config /config/prosody.cfg.lua register trednigAdmin meet.jitsi admintrendig
+	prosodyctl --config /config/prosody.cfg.lua unregister trednigAdmin meet.jitsi
