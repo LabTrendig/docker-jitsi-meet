@@ -29,7 +29,6 @@ VirtualHost "meet.jitsi"
     app_id = "trendigID"
     app_secret = "trendigSecret"
     allow_empty_token = false
-    
 
     
 
@@ -87,8 +86,6 @@ Component "muc.meet.jitsi" "muc"
         "muc_meeting_id";
         
         "token_moderation";
-        
-        
         "token_verification";
         
     }
