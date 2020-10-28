@@ -4,3 +4,4 @@
 docker-compose.override.yml
 
 !/.jitsi-meet-cfg/prosody/prosody-plugins-custom/mod_token_moderation.lua
+/.jitsi-meet-cfg/web/
