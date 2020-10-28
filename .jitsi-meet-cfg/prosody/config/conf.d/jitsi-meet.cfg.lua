@@ -15,6 +15,7 @@ http_default_host = "meet.jitsi"
 
 
 
+
 asap_accepted_issuers = { "my_web_client","my_app_client" }
 
 
@@ -29,6 +30,7 @@ VirtualHost "meet.jitsi"
     app_id = "trendigID"
     app_secret = "trendigSecret"
     allow_empty_token = false
+    
 
     
 
@@ -86,6 +88,8 @@ Component "muc.meet.jitsi" "muc"
         "muc_meeting_id";
         
         "token_moderation";
+        
+        
         "token_verification";
         
     }
@@ -94,7 +98,7 @@ Component "muc.meet.jitsi" "muc"
     muc_room_default_public_jids = true
 
 Component "focus.meet.jitsi"
-    component_secret = "889ef8b2564c68d7bf440bc0a69f38ff"
+    component_secret = "e09679456fb7435eb9688e96b03e2216"
 
 Component "speakerstats.meet.jitsi" "speakerstats_component"
     muc_component = "muc.meet.jitsi"

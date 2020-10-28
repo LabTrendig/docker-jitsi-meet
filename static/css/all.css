@@ -4593,12 +4593,7 @@ body.welcome-page {
 }
 
 .welcome {
-    background: -webkit-linear-gradient(90deg, #880e4f, #E91E63, #9d27af, #E91E63, #880e4f);
-    background: -moz-linear-gradient(90deg, #880e4f, #E91E63, #9d27af, #E91E63, #880e4f);
-    background: -ms-linear-gradient(90deg, #880e4f, #E91E63, #9d27af, #E91E63, #880e4f);
-    background: -o-linear-gradient(90deg, #880e4f, #E91E63, #9d27af, #E91E63, #880e4f);
-    background: linear-gradient(90deg, #880e4f, #E91E63, #9d27af, #E91E63, #880e4f);
-    background-size: 250% 200%;
+    background-color: #bce2f5;
     display: flex;
     flex-direction: column;
     font-family: inherit;
@@ -4634,7 +4629,7 @@ body.welcome-page {
 }
 
 .welcome .header .header-text-title {
-    color: #fff;
+    color: #0061A2;
     font-size: 2.5rem;
     font-weight: 500;
     line-height: 1.18;
@@ -4645,7 +4640,7 @@ body.welcome-page {
 .welcome .header .header-text-description {
     font-family: "Nordique-Pro-Regular",sans-serif;
     display: inherit;
-    color: #fff;
+    color: #0061A2;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 24px;

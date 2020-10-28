@@ -3,21 +3,4 @@
 .env.bak
 docker-compose.override.yml
 
-jitsi-meet-cfg/web/**
-!/jitsi-meet-cfg/web/interface_config.js
-!/jitsi-meet-cfg/web/config.js
-!/jitsi-meet-cfg/web/static/
-
-!/jitsi-meet-cfg/prosody/prosody-plugins-custom/mod_token_moderation.lua
-!/jitsi-meet-cfg/prosody/config/conf.d/jitsi-meet.cfg.lua
-
-jitsi-meet-cfg/prosody/config/certs/
-jitsi-meet-cfg/prosody/config/data/
-
-jitsi-meet-cfg/jicofo/
-jitsi-meet-cfg/jvb/
-jitsi-meet-cfg/transcripts/
-
-
-jitsi-meet-cfg/prosody/config/prosody.cfg.lua
-jitsi-meet-cfg/prosody/config/saslauthd.conf
+!/.jitsi-meet-cfg/prosody/prosody-plugins-custom/mod_token_moderation.lua
