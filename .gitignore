@@ -7,6 +7,6 @@ docker-compose.override.yml
 !/.jitsi-meet-cfg/web/interface_config.js
 /.jitsi-meet-cfg/web/**.key
 /.jitsi-meet-cfg/web/**.crt
-/.jitsi-meet-cfg/web/**.conf
+/.jitsi-meet-cfg/web/keys
 /.jitsi-meet-cfg/web/nginx
 
