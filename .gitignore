@@ -9,4 +9,5 @@ docker-compose.override.yml
 /.jitsi-meet-cfg/web/**.crt
 /.jitsi-meet-cfg/web/keys
 /.jitsi-meet-cfg/web/nginx
+.jitsi-meet-cfg/prosody/config/
 .jitsi-meet-cfg/jvb/sip-communicator.properties

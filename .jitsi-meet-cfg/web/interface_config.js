@@ -46,9 +46,9 @@ var interfaceConfig = {
 
     DEFAULT_BACKGROUND: '#474747',
     DEFAULT_LOCAL_DISPLAY_NAME: 'me',
-    DEFAULT_LOGO_URL: 'https://ik.imagekit.io/latrendig/atd-de_logo-horizontal-green_bTXNU-sM1.png',
+    DEFAULT_LOGO_URL: 'https://ik.imagekit.io/latrendig/atd-de_logo-horizontal-white__1__N5XdyFh55.png',
     DEFAULT_REMOTE_DISPLAY_NAME: 'Fellow Trendig',
-    DEFAULT_WELCOME_PAGE_LOGO_URL: 'https://ik.imagekit.io/latrendig/atd-de_logo-horizontal-green_bTXNU-sM1.png',
+    DEFAULT_WELCOME_PAGE_LOGO_URL: 'https://ik.imagekit.io/latrendig/atd-de_logo-horizontal-white__1__N5XdyFh55.png',
 
     DISABLE_DOMINANT_SPEAKER_INDICATOR: false,
 
