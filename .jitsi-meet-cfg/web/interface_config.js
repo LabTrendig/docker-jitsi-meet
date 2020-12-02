@@ -46,9 +46,9 @@ var interfaceConfig = {
 
     DEFAULT_BACKGROUND: '#474747',
     DEFAULT_LOCAL_DISPLAY_NAME: 'me',
-    DEFAULT_LOGO_URL: 'https://ik.imagekit.io/latrendig/atd-de_logo-horizontal-white__1__N5XdyFh55.png',
+    DEFAULT_LOGO_URL: 'https://trendig-media-prod.s3.eu-central-1.amazonaws.com/media/logos/trendig-long_white.svg',
     DEFAULT_REMOTE_DISPLAY_NAME: 'Fellow Trendig',
-    DEFAULT_WELCOME_PAGE_LOGO_URL: 'https://ik.imagekit.io/latrendig/atd-de_logo-horizontal-white__1__N5XdyFh55.png',
+    DEFAULT_WELCOME_PAGE_LOGO_URL: 'https://trendig-media-prod.s3.eu-central-1.amazonaws.com/media/logos/trendig-long_white.svg',
 
     DISABLE_DOMINANT_SPEAKER_INDICATOR: false,
 
@@ -113,10 +113,10 @@ var interfaceConfig = {
     HIDE_INVITE_MORE_HEADER: false,
 
     INITIAL_TOOLBAR_TIMEOUT: 20000,
-    JITSI_WATERMARK_LINK: 'https://www.agiletestingdays.com/',
+    JITSI_WATERMARK_LINK: 'https://trendig.com',
 
     LANG_DETECTION: true, // Allow i18n to detect the system language
-    LIVE_STREAMING_HELP_LINK: 'https://www.agiletestingdays.com/', // Documentation reference for the live streaming feature.
+    LIVE_STREAMING_HELP_LINK: 'https://trendig.com', // Documentation reference for the live streaming feature.
     LOCAL_THUMBNAIL_RATIO: 16 / 9, // 16:9
 
     /**
