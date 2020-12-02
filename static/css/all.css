@@ -6882,7 +6882,7 @@ input[type=range]::-ms-thumb {
 
 .meetings-list {
     font-size: 14px;
-    color: #253858;
+    color: #fff;
     line-height: 20px;
     text-align: left;
     text-overflow: ellipsis;
